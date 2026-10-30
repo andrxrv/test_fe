@@ -1,0 +1,13 @@
+{
+  "name": "test_fe",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cy:open": "set ELECTRON_RUN_AS_NODE=&& cypress open",
+    "cy:run": "set ELECTRON_RUN_AS_NODE=&& cypress run",
+    "cy:headed": "set ELECTRON_RUN_AS_NODE=&& cypress run --headed --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^16.2.1"
+  }
+}
